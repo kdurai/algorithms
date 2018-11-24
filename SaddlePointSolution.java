@@ -29,7 +29,6 @@ public class SaddlePointSolution {
 				}
 					
 			}
-			System.out.println();
 		}
 		return saddle;
 	}
@@ -42,18 +41,9 @@ public class SaddlePointSolution {
 				{4,6,7,1}
 		};
 
-		int[][] B = {
-				{0,1,9,3},
-				{7,5,8,3},
-				{9,2,9,4},
-				{4,6,7,1}
-		};
-		
 		SaddlePointSolution soln = new SaddlePointSolution();
 		System.out.println(soln.solution(A));
-		
-/*		System.out.println(A[0].length);
-		System.out.println(A.length);
-*/	}
+	
+	}
 
 }
